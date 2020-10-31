@@ -2,7 +2,8 @@ A Simple GNU makefile Demonstration
 ===================================
 In this repo, I have used a C program to demonstrate the makefile that can be use or able to compile the small C or C++ (some extension changes may require) program very efficiently.
 Following tree show the file structure of this repo:
-. project               (the project root directory)
+```
+. project
 |__Makefile
 |
 |__src
@@ -20,6 +21,7 @@ Following tree show the file structure of this repo:
     |__factorial.o
     |__main.d
     |__factorial.d
+```
 
 Use
 ===
