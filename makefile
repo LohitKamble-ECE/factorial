@@ -15,7 +15,7 @@ TARGET    := $(BIN_DIR)/factorial
 SOURCES   := $(wildcard $(SRC_DIR)/*.c)
 OBJECTS   := $(patsubst $(SRC_DIR)/%.c,$(OBJ_DIR)/%.o,$(SOURCES))
 
-.PHONY: all run clean clean_d
+.PHONY: all run clean clean_dep
 all: $(TARGET)
 
 # Dependency files info
